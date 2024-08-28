@@ -51,8 +51,71 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h2 class="title is-1 publication-title">Human-Adapter: Customizable 3D Human Generation with Gaussian Splatting</h2>
-            
+            <h1 class="title is-1 publication-title">Human-Adapter: Customizable 3D Human Generation with Gaussian Splatting</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Zhibin Liu</a><sup>*</sup>,</span>
+                <span class="author-block">
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Haoye Dong</a><sup>*</sup>,</span>
+                  <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Hefeng Wu</a><sup>*</sup>,</span>
+                    <a href="FOUTH AUTHOR PERSONAL LINK" target="_blank">Hefeng Wu</a><sup>*</sup>,</span>
+                    <a href="FIFTH AUTHOR PERSONAL LINK" target="_blank">Zhenyu Xie</a><sup>*</sup>,</span>
+                    <a href="FIFTH AUTHOR PERSONAL LINK" target="_blank">Ruomei Wang</a><sup>*</sup>,</span>
+                    <a href="FIFTH AUTHOR PERSONAL LINK" target="_blank">Xiaodan Liang</a><sup>*</sup>,</span>
+                    <a href="FIFTH AUTHOR PERSONAL LINK" target="_blank">Liang Lin</a>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Institution Name<br>Conferance name and year</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
             </div>
           </div>
         </div>
@@ -65,6 +128,38 @@
   </br>
   </br>
 
+  <!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+Remarkable advancements have been achieved in 3D human generation,
+    with 3D Gaussian Splatting (3DGS) emerging as a promising generation technique. 
+    However, existing 3D human generation methods apply 3DGS heavily based on multi-view images or videos,
+    remaining challenges in preserving identity and controlling shape.
+    To address these issues, we introduce a shape and appearance adaption framework, named \textbf{Human-Adapter}, 
+    which generates personalized 3D human without multi-view images, 
+    controlling 3D human shape by using user measurements. 
+    We design a specialized measurement-to-shape module that intricately controls body shape with measurements, which directly boosts the initiation of 3DGS.
+    We establish a connection between the 3DGS-generated human and the user's identity image. This is achieved by progressively guiding 3DGS optimization with adapted 2D view projections with multimodal input, employing a personalized guidance diffusion model that links human appearance to the face image and text prompt.
+    Furthermore, we employ the decoupled cross-attention mapping and a face refinement strategy for keeping the person's identity. 
+    Human-Adapter makes the first attempt to achieve not only controlling body shape but also keeping identity with a specified face image.
+    Experiments demonstrate that we achieve promising 3D humans with shape control and identity preservation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+  </br>
+  </br>
+  </br>
+  
   <div style="display:flex;justify-content:center;">
   <table><tr>
   <td><img src="static/images/chris.gif" border=0 width="270"></td>
